@@ -8,6 +8,7 @@ Created on Sun Apr 26 14:53:38 2020
 
 import time
 import pandas as pd
+import numpy as np
 
 
 CITY_DATA = { 'chicago': 'chicago.csv',
@@ -27,7 +28,7 @@ def get_filters():
     print('Hello! Let\'s explore some US bikeshare data!')
 
 
-    # TO DO: get user input for city (chicago, new york city, washington). 
+    # TO DO: get user input for city (chicago, new york city, washington).
     city = input('Would you like to see data for Chicago, New York City or Washington?\n').lower()
     while city not in ['chicago','new york city','washington']:
         city = input('Try again... (Type Chicago, New York City or Washington)\n').lower()
