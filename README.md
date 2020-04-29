@@ -1,14 +1,19 @@
 ### Date created
-Include the date you created this project and README file.
+29/04/2020
 
 ### Project Title
-Replace the Project Title
+Git project udacity
 
 ### Description
 
 
 ### Files used
-
+bikeshare.py
+washington.csv
+new_york_city.csv
+chicago.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+https://www.divvybikes.com/system-data
+https://www.citibikenyc.com/system-data
+https://www.capitalbikeshare.com/system-data
